@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mylinks");
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#HOME" class="active">PORTFOLIO</a>
+        <ul id="mylinks">
+            <a href="#text0">INFO</a>
+            <a href="#text1">ABOUT</a>
+            <a href="#text2">SKILLS</a>
+            <a href="#text3">EDUCATION</a>
+            <a href="#text4">CONTACT</a>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><button class='button1'><a href="#text1"><span>ABOUT</span></a></button></li>
+                <li><button class='button2'><a href="#text2"><span>SKILLS</span></a></button></li>
+                <li><button class='button3'><a href="#text3"><span>EDUCATION</span></a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class='containero'>
+        <div id="text0">
+            <div class="articleo">
+                <h2><u>INFO:</u></h2>
+                <p>"This is the Portfolio Website build via HTML,</p>
+                <p>CSS and JAVASCRIPT.This is my first hands on</p>
+                <p>experience with the world defining tools and</p>
+                <p>technologies.Hope it helpful for all the viewers</p>
+                <p>coz it is carved with lot of care and joyness.</p>
+                <p>It helped me gaining precious experience in web</p>
+                <p>Development."</p>
+            </div>
+        </div>
+    </section>
+    <section class='container1'>
+        <div id="text1">
+            <div class="image1">
+                <h2><u>ABOUT:</u></h2>
+                <p>"Aspiring future Engineer</p>
+                <p>Welcoming New Tools and </p>
+                <p> Tech with an open arm"</p>
+            </div>
+            <div class="article1">
+                <p>"Hello Peeps Satyam this side</p>
+                <p>I am a second year student pursuing my</p>
+                <p>bachelor's degree in Electronics and</p>
+                <p>Communication Engineering and</p>
+                <p>passionate for Web Development."</p>
+            </div>
+        </div>
+    </section>
+    <section class='container2'>
+        <div id="text2">
+            <div class="image2">
+                <h2><u>SKILLS:</u></h2>
+                <img src='.\pics\remove.png' class="showcase_img2" alt="" />
+                <img src='.\pics\log.png' class="showcase_img3" alt="" />
+                <img src='.\pics\java.png' class="showcase_img4" alt="" />
+            </div>
+            <div class="article2">
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JAVASCRIPT</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Java">JAVA</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class='container3'>
+        <div id="text3">
+            <div class="image3">
+                <h2><u>EDUCATION:</u></h2>
+                <img src='.\pics\dtea.png' class="showcase_img5" alt="" />
+                <img src='.\pics\ggsipu.png' class="showcase_img6" alt="" />
+                <img src='.\pics\msit.jpg' class="showcase_img7" alt="" />
+            </div>
+            <div class="article3"></div>
+            <ul>
+                <li><a href="https://dteaschool-jkp.org/">DTEA</a></li>
+                <li><a href="http://www.ipu.ac.in/">GGSIPU</a></li>
+                <li><a href="https://www.msit.in/">MSIT</a></li>
+            </ul>
+    </section>
+    <section class='container4'>
+        <h2><u>CONTACT:</u></h2>
+        <div id="text4">
+            <div class='link1'>
+                <a href="https://github.com/SATZY-17">GITHUB</a>
+            </div>
+            <div class='link2'>
+                <a href="https://www.linkedin.com/in/satyam-aharyan-4283541ba/">LINKEDIN</a>
+            </div>
+             <div class='link3'>
+                 <a href="https://www.facebook.com/">FACEBOOK</a>
+        </div>
+        <div class='link4'>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">GMAIL</a>
+        </div>
+    </section>
+</body>
+
+</html>

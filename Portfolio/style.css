@@ -1,0 +1,405 @@
+body{
+  background-image:url('./pics/building.jpeg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:100%;
+}
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+  font-weight:100px; ;
+  color:wheat;
+  display:flex;
+  margin-left: 2rem;
+}
+nav{
+  width:50rem;
+  position:relative;
+  top:-0.5rem;
+  right:-25rem;
+  align-content:right;
+}
+header ul{
+  display:flex;
+  justify-content:space-between;
+}
+li{
+  list-style:none;
+}
+.image1 h2{
+  color:antiquewhite
+}
+.topnav{
+overflow:hidden;
+background-color:black;
+position:relative;
+}
+.topnav #mylinks
+{
+display:none;
+}
+.topnav a{
+text-decoration:none;
+font-size:20px;
+display:block;
+padding:14px 16px;
+}
+.topnav a.icon{
+display:block;
+position:absolute;
+right:0;
+top:0;
+background:black;
+}
+.topnav a:hover{
+background-color:red;
+color:black;
+}
+.active{
+background-color:black;
+color:green;
+font-weight: 800;
+}
+.containero{
+background-image:url('./pics/black.jpg');
+height:500px;
+width:auto;
+margin:100px;
+border-radius:4rem;
+}
+#text0{
+display:flex;
+margin:3rem;
+color:white;
+font-weight: bold;
+background-image:url('./pics/removal.png'),url('./pics/black.jpg');
+background-blend-mode:luminosity;
+background-repeat:no-repeat;
+height: 500px;
+}
+.articleo{
+position:relative;
+font-size:x-large;
+margin-bottom:1rem; 
+font-weight:bolder;
+margin-left:4rem;
+}
+
+.container1{
+width:auto;
+height:500px;
+background-color: rgba(0, 0, 0, 0.637);
+ margin:100px;
+border: 10px solid red;
+border-radius:4rem;
+background-image: url('./pics/moderna.png');
+}
+   #text1{
+     display: flex;
+      margin:3rem;
+      font-size:xx-large;
+      color:white;
+      font-weight:bold ;
+      justify-content: space-between;
+}
+.image1 h2{
+font-size:xx-large;
+}
+.article1{
+position:relative;
+bottom:3rem;
+margin:1rem;
+top:0rem;
+font-size:x-large;
+color: white;
+}
+.container2{
+  width:auto;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border:10px solid green;
+  border-radius:4rem;
+  margin:100px;
+}
+.container2:hover{
+background-color:black
+}
+#text2 {
+  color:wheat;
+  font-size:larger;
+  font-weight: bold;
+}
+.article2{
+  position:relative;
+  bottom:3rem;
+  margin:1rem;
+}
+.image1{
+color:red;
+}
+.image2 h2{
+  position:relative;
+  top:3rem;
+  margin:3rem;
+  width:35rem;
+}
+
+.showcase_img2{
+  height: 250px;
+  width: 300px;
+  position: relative;
+  bottom:0.5rem;
+  justify-content:space-between;
+
+}
+.showcase_img3{
+  height:120px;
+  position:relative;
+  bottom:4.5rem;
+  right:-12rem;
+}
+.showcase_img4{
+  height:120px;
+  position:relative;
+  bottom:4.5rem;
+  right:-24rem;
+}
+.container3{
+width:auto;
+height:400px;
+background-color:maroon;
+border:10px solid rgba(0, 0, 255, 0.856);
+border-radius:4rem;
+margin:100px;
+}
+#text3{
+color:red;
+font-size: x-large;
+font-weight: bold;
+margin-left:3rem;
+}
+.container4{
+background-image:url('./pics/montains.jpg');
+height:650px;
+width:auto;
+margin:100px;
+border-radius:4rem;
+}
+.container4 h2{
+font-size: xx-large;
+margin-left:450px;
+}
+.link1{
+height:40px;
+width:auto;
+margin:100px;
+background-color:black;
+font-size: x-large;
+border-radius:4rem;
+}
+.link1 a{
+margin:400px;
+margin-top:200px;
+color:magenta;
+}
+.link2{
+height:40px;
+width:auto;
+margin:100px;
+background-color:black;
+font-size: x-large;
+border-radius:4rem;
+}
+.link2 a{
+margin:400px;
+margin-top:200px;
+color:magenta;
+}
+.link3{
+height:40px;
+width:auto;
+margin:100px;
+background-color:black;
+font-size:x-large;
+border-radius:4rem;
+}
+.link3 a{
+margin:400px;
+margin-top:200px;
+color:magenta;
+}
+.link4{
+height:40px;
+width:auto;
+margin:100px;
+background-color:black;
+font-size:x-large;
+border-radius:4rem;
+}
+.link4 a{
+margin:400px;
+margin-top:200px;
+color:magenta;
+}
+.showcase_img5
+{
+height:150px;
+position:relative;
+bottom:0.5rem;
+}
+.showcase_img6{
+height:150px;
+position:relative;
+bottom:0.5rem;
+right:-10rem
+}
+.showcase_img7{
+height:150px;
+position:relative;
+bottom:0.5rem;
+right:-20rem;
+}
+a{
+  text-decoration:none;
+  color:green;
+}
+
+.button1{
+  border-radius: 4px;
+background-color:yellow;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 25px;
+padding: 15px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 20px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2{
+  border-radius: 4px;
+background-color:yellow;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 25px;
+padding: 15px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 20px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button3{
+  border-radius: 4px;
+background-color:yellow;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 25px;
+padding: 15px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 20px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.container1:hover{
+  transform: scale(1.08);
+}
+.containero:hover{
+  transform:scale(1.08);
+}
+.container2:hover{
+  transform:scale(1.08);
+}
+.container3:hover{
+  transform:scale(1.08);
+}
+.container4:hover{
+  transform:scale(1.08);
+}
+.link1:hover{
+  transform:scale(1.08);
+}
+.link2:hover{
+  transform:scale(1.08);
+}
+.link3:hover{
+  transform:scale(1.08);
+}
+.link4:hover{
+  transform:scale(1.08);
+}
